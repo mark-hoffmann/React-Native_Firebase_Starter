@@ -54,6 +54,7 @@ os.system("touch styles.js")
 os.chdir("../")
 
 os.system("mkdir images")
+os.system("mkdir fonts")
 os.system("mkdir layouts")
 os.system("mkdir lib")
 os.system("mkdir reducers")
