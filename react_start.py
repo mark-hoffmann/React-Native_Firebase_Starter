@@ -14,7 +14,7 @@ print("Finished")
 os.system('npm install --save-dev eslint-config-react-native')
 os.chdir(PROJECT_NAME)
 with io.FileIO(".eslintrc.json", "w") as file:
-    file.write("{'extends': ['react-native']}")
+    file.write("{\n\t'extends' : ['react-native'],\n\t'rules' : {\n\t\t'arrow-body-style' : 0\n\t}\n}")
 
 print("Installing node modules")
 os.system("npm install --save firebase redux react-redux redux-thunk axios")
