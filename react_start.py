@@ -53,8 +53,14 @@ os.system("touch store.js")
 os.system("touch styles.js")
 os.chdir("../")
 
-os.system("mkdir images")
 os.system("mkdir fonts")
+os.system("mkdir images")
+
+os.system("mkdir helpers")
+os.chdir("helpers")
+os.system("touch index.js")
+os.chdir("../")
+
 os.system("mkdir layouts")
 os.system("mkdir lib")
 os.system("mkdir reducers")
