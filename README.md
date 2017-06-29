@@ -21,5 +21,5 @@ To use the script cd to the script on your machine, then pass in 2 arguments via
 
 ## Ex.
 ```
-python react_start.py "/Users/Name/Desktop" "ProjectName"
+python react_start.py /Users/Name/Desktop ProjectName
 ```
